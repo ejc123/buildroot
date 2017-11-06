@@ -31,8 +31,16 @@ F:	package/gstreamer1/gst1-rtsp-server/
 
 N:	Adam Duskett <aduskett@gmail.com>
 F:	package/audit/
+F:	package/busybox/
 F:	package/checkpolicy/
+F:	package/cppdb/
+F:	package/gstreamer1/gstreamer1/
+F:	package/gstreamer1/gst1-plugins-bad/
+F:	package/gstreamer1/gst1-plugins-base/
+F:	package/gstreamer1/gst1-plugins-good/
+F:	package/gstreamer1/gst1-plugins-ugly/
 F:	package/gstreamer1/gst1-vaapi/
+F:	package/imx-usb-loader/
 F:	package/janus-gateway/
 F:	package/libressl/
 F:	package/libselinux/
@@ -779,6 +787,9 @@ F:	package/pdbg/
 F:	board/qemu/ppc64le-pseries/
 F:	configs/qemu_ppc64le_pseries_defconfig
 
+N:	Joseph Kogut <joseph.kogut@gmail.com>
+F:	package/python-websockets/
+
 N:	Johan Derycke <johanderycke@gmail.com>
 F:	package/python-libconfig/
 
@@ -1239,8 +1250,17 @@ N:	Petr Kulhavy <brain@jikos.cz>
 F:	package/linuxptp/
 
 N:	Petr Vorel <petr.vorel@gmail.com>
+F:	package/connman/
+F:	package/feh/
+F:	package/imlib2/
+F:	package/libmbim/
+F:	package/libqmi/
 F:	package/linux-backports/
 F:	package/ltp-testsuite/
+F:	package/modem-manager/
+F:	package/network-manager/
+F:	package/ofono/
+F:	package/python-networkmanager/
 
 N:	Phil Eichinger <phil.eichinger@gmail.com>
 F:	package/libqrencode/
@@ -1631,7 +1651,6 @@ N:	Vinicius Tinti <viniciustinti@gmail.com>
 F:	package/python-thrift/
 
 N:	Volkov Viacheslav <sv99@inbox.ru>
-F:	package/rfkill/
 F:	package/v4l2grab/
 F:	package/zbar/
 
