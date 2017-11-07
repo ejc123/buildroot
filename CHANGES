@@ -1,6 +1,9 @@
-2017.11-rc1, To be released
+2017.11-rc1, Released November 6th, 2017
 
 	Fixes all over the tree and new features.
+
+	Openssl is now a virtual package, which may be provided by
+	OpenSSL (now renamed to libopenssl) or LibreSSL.
 
 	libssh2: there is now an explicit choice of the backend to use
 	(mbedtls, gnutls or openssl). Previously, the choice was implicit
@@ -11,6 +14,17 @@
 	netsnmp: all MIB files are now installed, making the target filesystem a
 	bit bigger than before. To remove unneeded MIBS, you should use a
 	post-build script.
+
+	Toolchain: Linaro toolchains updated to 2017.08, ARC toolchain
+	updated to 2017.09, Glibc updated to 2.26, Glibc support for
+	ARCv2. The toolchain wrapper now handles SOURCE_DATE_EPOCH for
+	older (pre-gcc7.x) toolchains for BR2_REPRODUCIBLE.
+
+	New defconfigs: Atmel SAM45D27, Bananapi M1 and M2 Plus,
+	Engicam i.CoreM6 Qt5 configuration, i.MX6 sabreauto (mainline
+	kernel/u-boot), i.MX6Q sabresd Qt5 configuration, i.MX7d-pico,
+	QEMU ppc64le, Raspberry pi3 Qt5 webengine configuration,
+	Technologic TS-7680.
 
 	New packages: asterisk, azmq, bcg729, boinc, dahdi-linux,
 	dahdi-tools, freeswitch-mod-bcg729, fscryptctl, libb64,
@@ -32,6 +46,7 @@
 	#10336: lttng compilation fails : linking error
 	#10351: glibc missing in rootfs
 	#10356: nfs-utils missing header
+	#10361: python3 python-config script generates invalid includes
 	#10366: dropbear download url has changed
 	#10391: WiringPi retrieves wrong (old) version
 	#10406: Beaglebone black: Buggy SGX driver version, swapped...
