@@ -5,7 +5,7 @@ GENIMAGE_CFG="${BOARD_DIR}/genimage.cfg"
 GENIMAGE_TMP="${BUILD_DIR}/genimage.tmp"
 UBOOT_DIR="${BUILD_DIR}/uboot-odroidxu4-v2017.05/sd_fuse"
 MKIMAGE="${HOST_DIR}/bin/mkimage"
-INIT="${BINARIES_DIR}/root.cpio"
+INIT="${BINARIES_DIR}/rootfs.cpio"
 UINIT="${BINARIES_DIR}/uInitrd"
 
 
